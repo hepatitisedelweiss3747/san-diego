@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Diego Legacy Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">San Diego Legacy</div>
+      <div class="menu-icon" id="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#get-involved">Get Involved</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Building a Legacy, Together</h1>
+      <p>Join us in making a lasting impact on San Diego’s community.</p>
+      <a href="page2.html" class="cta-button">Learn How You Can Contribute</a>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="stats">
+    <div class="stat-item">
+      <h2>$10M+</h2>
+      <p>Total Funds Borrowed</p>
+    </div>
+    <div class="stat-item">
+      <h2>50+</h2>
+      <p>Projects Funded</p>
+    </div>
+    <div class="stat-item">
+      <h2>100K+</h2>
+      <p>Community Impact</p>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <div class="mission">
+        <h3>Our Mission & Vision</h3>
+        <p>We empower San Diego’s community through borrowed legacy funds, fostering growth and sustainability.</p>
+      </div>
+      <div class="history">
+        <h3>History</h3>
+        <p>Founded in 2010, we’ve achieved key milestones in community development and financial transparency.</p>
+      </div>
+      <div class="leadership">
+        <h3>Leadership Team</h3>
+        <p>Meet our dedicated board members and executives driving our mission forward.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Borrowing Model</h3>
+        <p>Learn how individuals lend funds and the repayment structure.</p>
+      </div>
+      <div class="step">
+        <h3>2. Who Can Participate</h3>
+        <p>Find out if you’re eligible to contribute or borrow.</p>
+      </div>
+      <div class="step">
+        <h3>3. FAQs</h3>
+        <p>Get answers to common questions about lending and risks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact & Success Stories -->
+  <section id="impact" class="impact">
+    <h2>Impact & Success Stories</h2>
+    <div class="stories">
+      <div class="story">
+        <h3>Featured Projects</h3>
+        <p>See how borrowed funds have transformed our community.</p>
+      </div>
+      <div class="story">
+        <h3>Testimonials</h3>
+        <p>Hear from funders and beneficiaries about their experiences.</p>
+      </div>
+      <div class="story">
+        <h3>Photo & Video Gallery</h3>
+        <p>Visual proof of the impact we’ve made together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved -->
+  <section id="get-involved" class="get-involved">
+    <h2>Get Involved</h2>
+    <div class="options">
+      <div class="option">
+        <h3>Lend Funds</h3>
+        <p>Contribute to our mission and see the impact of your support.</p>
+      </div>
+      <div class="option">
+        <h3>Volunteer</h3>
+        <p>Join us in making a difference through volunteering.</p>
+      </div>
+      <div class="option">
+        <h3>Corporate & Partner Programs</h3>
+        <p>Collaborate with us to amplify our impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources & News -->
+  <section id="resources" class="resources">
+    <h2>Resources & News</h2>
+    <div class="resources-content">
+      <div class="blog">
+        <h3>Blog & Updates</h3>
+        <p>Stay informed with articles on philanthropy and community development.</p>
+      </div>
+      <div class="events">
+        <h3>Events Calendar</h3>
+        <p>Join us at upcoming fundraisers and networking events.</p>
+      </div>
+      <div class="press">
+        <h3>Press & Media</h3>
+        <p>Read about our work in the news.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Office Location: 147 San Diego, CA</p>
+        <p>Hours: Mon-Fri, 9 AM - 5 PM</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 San Diego Legacy Foundation. All rights reserved.</p>
+  </footer>
+
+
+
+  <script>
+  
+   
+
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
+  
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+
+  </script>
+
+
+
+</body>
+
+
+
+
+</html>
